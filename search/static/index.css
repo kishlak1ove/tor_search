@@ -1,0 +1,68 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://resizer.mail.ru/p/2e7324ce-4e51-5f83-a85c-f80cdae760a7/AQAKHr0D6SiYxyHBRfGXuJtj6bOhs8s0KMdecLrMFZsudxv0q5-mCtrAf51ki0CAnKPxgvVUN0A1_xFYxKM-AMJinlU.webp");
+}
+
+html{
+    height: 100%;
+    margin: 0;
+}
+
+.head_logo_img{
+    display: flex;
+    justify-content: center;
+}
+
+.name_logo_head{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+input[type="text"] {
+    padding: 20px;
+    outline: none;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    flex: 0.4;
+    margin-right: 10px;
+}
+button {
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: purple;
+}
+
+.container_footer{
+    background-color: rgba(255, 0, 0, 0.7);
+    margin-top: 100px;
+    padding: 25px;
+    border: 2px solid #000;
+    color: white;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color :blue
+}
